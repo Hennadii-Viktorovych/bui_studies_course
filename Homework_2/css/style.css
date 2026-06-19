@@ -34,6 +34,9 @@ body{
     gap: 2rem;
 }
 
+.hero{
+    margin-bottom: 100px;
+}
 
 .hero__content {
     max-width: 600px;
@@ -58,4 +61,15 @@ body{
 
 .hero__btn{
     margin-bottom: 140px;
+}
+
+.brands{
+    display: flex;
+    align-items: center;
+}
+
+.brands__list{
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 7rem;
 }
