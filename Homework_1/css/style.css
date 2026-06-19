@@ -1,19 +1,25 @@
 
 body{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     font-family: 'Open Sans', sans-serif;
-    background-color: #282828;
+    background-color: #000000;
     margin: 30px 0;
     color: #eed9d9;
+    overflow-x:hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    font-family: 'Judson', serif;
 }
 
 .header{
     width: 100%;
     max-width: 1200px;
-    height: 23px;
-    margin:0  0 50px ;
+    margin: 50px   50px ;
     padding: 0 20px;
 }
 
@@ -24,7 +30,6 @@ body{
 }
 
 .nav__item {
-    font-family: 'Open Sans';
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
@@ -33,12 +38,12 @@ body{
 
 .hero{
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     background-image: url('../images/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .hero__title{
@@ -49,3 +54,77 @@ body{
     line-height: 220px;
     padding-top: 200px;
 }
+
+.credits {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.credits__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.credits__role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    opacity: 0.6;
+}
+
+.credits__name {
+    font-family: Judson;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.gallery{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.galleri__images img {
+    display: block;
+    width: 600px;
+}
+
+.galleri__images img {
+    display: block;
+    width: 70%;
+}
+
+.top {
+    margin: 0 0 100px 0;
+}
+
+.centered {
+    width: 70%;
+    margin: 0 0 100px 30%;
+}
+
+.bottom {
+    margin-bottom:  160px;
+}
+
+
+
+
+
+
+
+
+
