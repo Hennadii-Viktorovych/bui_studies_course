@@ -134,7 +134,65 @@ body{
 
 
 
+.testimonial .container {
+    display: flex;
+    flex-direction: column;
+}
 
+.testimonial__text{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.19em;
+    color: #0077c0;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
 
+.testimonial__title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    color: #000;
+    margin:16px 0 45px 0;
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.testimonial__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 100px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card__img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.card__title{
+    font-weight: 500;
+    font-size: 16px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.card__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #000;
+}
 
 
